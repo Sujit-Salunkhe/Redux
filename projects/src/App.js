@@ -1,4 +1,4 @@
-import MuiTypography from './components/MUiTypography';
+// import MuiTypography from './components/MUiTypography';
 import MuiButton from './components/MuiButton';
 import './App.css'
 function App() {
