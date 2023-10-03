@@ -13,7 +13,7 @@ const MuiCheckbox = () => {
   const [value, setvalue] = useState(false);
   const [skills, setskills] = useState([]);
   console.log({ value });
-  console.log(skills)
+  console.log({skills})
 
   const handleChange = (event) => {
     setvalue(event.target.checked);
@@ -31,7 +31,7 @@ const MuiCheckbox = () => {
       <Box>
         <FormControlLabel
           label="i accept terms and conditions"
-          control={<Checkbox checked={value} onChange={handleChange} />}
+          control={<Checkbox checked={value} onChange={handleChange} size="small" color="secondary" />}
         ></FormControlLabel>
       </Box>
       <Box>
@@ -45,7 +45,7 @@ const MuiCheckbox = () => {
       <Box>
         <FormControl>
             <FormLabel>Skills</FormLabel>
-            <FormGroup>
+            <FormGroup row>
             <FormControlLabel
           label="HTML"
           control={<Checkbox  value={"html"}  checked={skills.includes('html')} onChange={handleskillchange} />}
