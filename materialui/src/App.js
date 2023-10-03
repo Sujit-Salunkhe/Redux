@@ -2,10 +2,12 @@
 // import MuiButton from './components/MuiButton';
 // import MuiTextFiled from './components/MuiTextFiled';
 import './App.css'
+import MuiAutocomplete from './components/MuiAutocomplete';
+import MuiRating from './components/MuiRating';
 // import MuiCheckbox from './components/MuiCheckbox';
 // import MuiSelect from './components/MuiSelect';
 // import MuiRadioButtton from './components/MuiRadioButtton';
-import MuiSwitch from './components/MuiSwitch';
+// import MuiSwitch from './components/MuiSwitch';
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,9 @@ function App() {
       {/* <MuiSelect/> */}
       {/* <MuiRadioButtton/> */}
       {/* <MuiCheckbox/> */}
-      <MuiSwitch />
+      {/* <MuiSwitch /> */}
+      {/* <MuiRating/> */}
+      <MuiAutocomplete/>
     </div>
   );
 }
