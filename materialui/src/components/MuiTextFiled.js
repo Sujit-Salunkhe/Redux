@@ -19,7 +19,7 @@ const MuiTextFiled = () => {
         </Stack>
         <Stack spacing={2} direction={"row"}>
         <TextField label="Amount" InputProps={{startAdornment :<InputAdornment position='start'>$</InputAdornment>}}/>
-        <TextField label="Weight" InputProps={{endAdornment :<InputAdornment position='end'>end</InputAdornment>}}/>
+        <TextField label="Weight" InputProps={{endAdornment :<InputAdornment position='end'>Kg</InputAdornment>}}/>
         </Stack>
         <Stack spacing={2} direction={"row"}>
         <TextField label='password' onChange={e => setvalue(e.target.value)} value={value} required  error={!value} helperText={!value ? "required " : "Do not share password with anyone"}/>

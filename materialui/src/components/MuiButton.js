@@ -63,13 +63,13 @@ const MuiButton = () => {
           variant="contained"
           startIcon={<SendIcon />}
           disableRipple
-          onClick={() => {
-            alert("click");
-          }}
+          // onClick={() => {
+          //   alert("click");
+          // }}
         >
           send
         </Button>
-        <Button variant="contained" endIcon={<SendIcon />} disableElevation>
+        <Button variant="contained" endIcon={<SendIcon />} disableElevation >
           send
         </Button>
         <IconButton aria-label="send" color="success" size="medium">
@@ -79,7 +79,7 @@ const MuiButton = () => {
       <Stack direction={"row"}>
         <ButtonGroup
           variant="contained"
-          orientation="vertical"
+          orientation="horizontal"
           size="small"
           color="secondary"
           aria-label="alignment button group"

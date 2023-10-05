@@ -1,8 +1,9 @@
 import './App.css'
-import MuiBottomNavigation from './components/MuiBottomNavigation';
-import MuiAvatar from './components/datadisplay/MuiAvatar';
-import MuiBadge from './components/datadisplay/MuiBadge';
-import MuiList from './components/datadisplay/MuiList';
+// import MuiBottomNavigation from './components/MuiBottomNavigation';
+// import MuiAvatar from './components/MuiAvatar';
+// import MuiBadge from './components/MuiBadge';
+// import MuiList from './components/MuiList';
+// import MuiChip from './components/MuiChip';
 // import MuiBreadCrumps from './components/MuiBreadCrumps';
 // import MuiDrawer from './components/MuiDrawer';
 // import MuiLink from './components/MuiLink';
@@ -21,7 +22,9 @@ import MuiList from './components/datadisplay/MuiList';
 // import MuiSelect from './components/MuiSelect';
 // import MuiRadioButtton from './components/MuiRadioButtton';
 // import MuiSwitch from './components/MuiSwitch';
+// import MuiToolpit from './components/MuiTooltip'
 // import MuiNavbar from './components/MuiNavbar'; 
+import MuiTable from './components/MuiTable';
 function App() {
   return (
     <div className="App">
@@ -47,7 +50,10 @@ function App() {
       {/* <MuiBottomNavigation/> */}
       {/* <MuiAvatar/> */}
       {/* <MuiBadge/> */}
-      <MuiList/>
+      {/* <MuiList/> */}
+      {/* <MuiChip/> */}
+      {/* <MuiToolpit/> */}
+      <MuiTable/>
     </div>
   );
 }
