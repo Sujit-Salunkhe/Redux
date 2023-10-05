@@ -3,8 +3,8 @@ import React from 'react'
 
 const MuiTable = () => {
   return (
-    <TableContainer component={Paper}>
-      <Table aria-label='simple table'>
+    <TableContainer component={Paper} sx={{maxHeight:'300px'}}>
+      <Table aria-label='simple table' stickyHeader>
         <TableHead>
             <TableRow>
                 <TableCell>Id</TableCell>
