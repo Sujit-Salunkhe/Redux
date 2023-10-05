@@ -1,6 +1,7 @@
 import './App.css'
 import MuiAlert from './components/MuiAlert';
 import MuiDialog from './components/MuiDialog';
+import MuiSkeleton from './components/MuiSkeleton';
 import MuiSnackbar from './components/MuiSnackbar';
 // import MuiBottomNavigation from './components/MuiBottomNavigation';
 // import MuiAvatar from './components/MuiAvatar';
@@ -61,7 +62,8 @@ function App() {
       {/* <MuiAlert/> */}
       {/* <MuiSnackbar/> */}
       {/* <MuiDialog/> */}
-      <Muiprogress/>
+      {/* <Muiprogress/> */}
+      <MuiSkeleton/>
     </div>
   );
 }
