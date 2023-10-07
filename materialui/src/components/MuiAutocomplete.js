@@ -28,7 +28,7 @@ const MuiAutocomplete = () => {
         value={skill}
         onChange={(event, newvalue) => {
           setSkill(newvalue);
-        }}
+        }
         
       />
     </Stack>
