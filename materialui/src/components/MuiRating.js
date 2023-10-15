@@ -19,7 +19,7 @@ const MuiRating = () => {
         icon={<FavoriteIcon  fontSize="inherit"  color="error"/>}
         emptyIcon={<FavoriteBorderIcon fontSize="inherit"/>}
         readOnly
-        highlightSelectednly
+        highlightSelectedOnly
       />
     </Stack>
   );
