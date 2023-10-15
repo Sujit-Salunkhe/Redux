@@ -6,7 +6,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 const MuiRating = () => {
   const [value, setvalue] = useState(null);
   console.log(value);
-  const handlechange = (evet, newvalue) => {
+  const handlechange = (event, newvalue) => {
     setvalue(newvalue);
   };
   return (
