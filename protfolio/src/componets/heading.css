@@ -10,11 +10,10 @@
 .headingdiv {
     /* margin-left: 64px; */
     /* margin-right: 64px; */
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     display: flex; 
     justify-content:space-evenly;
-
     align-items: center;
 
 }
@@ -114,7 +113,6 @@
     justify-content: center;
     align-items: center;
     row-gap: 20px;
-    margin-top: 140px;
     /* align-self: flex-end; */
 }
 .mernname{

@@ -12,24 +12,14 @@ const Navbar = () => {
     <div className="navbar">
       <section className="navbartitle">Sujit</section>
       <section className="navbaricons">
-        <div> 
-          <img src={Homeimg} alt="bulb"></img>
-        </div>
-        <div>
-          <img src={infoimg} alt="bulb"></img>
-        </div>
-        <div>
-          <img src={bulbimg} alt="bulb"></img>
-        </div>
-        <div>
-          <img src={educationimg} alt="bulb"></img>
-        </div>
-        <div>
-          <img src={Trophyimg} alt="bulb"></img>
-        </div>
-        <div>
-          <img src={Phoneimg} alt="bulb"></img>
-        </div>
+        <ul>
+          <li className="iconsimage homeimg"><img src={Homeimg} alt="Home"></img></li>
+          <li className="iconsimage infoimg"><img src={infoimg} alt="info"></img></li>
+          <li className="iconsimage bulbimg"><img src={bulbimg} alt="bulb"></img></li>
+          <li className="iconsimage educationimg"><img src={educationimg} alt="education"></img></li>
+          <li className="iconsimage Trophyimg"><img src={Trophyimg} alt="Trophy"></img></li>
+          <li className="iconsimage phoneimg"><img src={Phoneimg} alt="phone"></img></li>
+        </ul>
       </section>
     </div>
   );
