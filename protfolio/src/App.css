@@ -1,1 +1,9 @@
-
+.App{
+  height: 10000px;
+}
+.navbar{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  padding: 5px;
+}

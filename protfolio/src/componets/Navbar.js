@@ -118,24 +118,7 @@ const Navbar = () => {
               ></img>
             </li>
           )}
-          {state.showEducationImg ? (
-            <li className="iconsimage educationimg hoverimages">
-              <img
-                src={Journolhover}
-                alt="education"
-                onMouseLeave={() => handleMouseLeave("removeeducation")}
-              ></img>
-              Education
-            </li>
-          ) : (
-            <li className="iconsimage educationimg">
-              <img
-                src={educationimg}
-                alt="education"
-                onMouseEnter={() => handleMouseEnter("Education")}
-              ></img>
-            </li>
-          )}
+        
           {state.showTrophyImg ? (
             <li className="iconsimage Trophyimg hoverimages">
               <img
@@ -151,6 +134,24 @@ const Navbar = () => {
                 src={Trophyimg}
                 alt="Trophy"
                 onMouseEnter={() => handleMouseEnter("Trophy")}
+              ></img>
+            </li>
+          )}
+            {state.showEducationImg ? (
+            <li className="iconsimage educationimg hoverimages">
+              <img
+                src={Journolhover}
+                alt="education"
+                onMouseLeave={() => handleMouseLeave("removeeducation")}
+              ></img>
+              Education
+            </li>
+          ) : (
+            <li className="iconsimage educationimg">
+              <img
+                src={educationimg}
+                alt="education"
+                onMouseEnter={() => handleMouseEnter("Education")}
               ></img>
             </li>
           )}
