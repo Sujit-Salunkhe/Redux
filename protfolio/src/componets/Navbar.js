@@ -65,7 +65,7 @@ const Navbar = () => {
       <section className="navbaricons">
         <ul>
           {state.showHomeImg ? (
-            <li className="iconsimage homeimg">
+            <li className="iconsimage homeimg hoverimages ">
               <img
                 src={Homehover}
                 alt="Home"
@@ -83,8 +83,8 @@ const Navbar = () => {
             </li>
           )}
           {state.showInfoImg ? (
-            <li className="iconsimage infoimg">
-              <img
+            <li className="iconsimage infoimg  hoverimages  ">
+            <img
                 src={InfoCirclehover}
                 alt="info"
                 onMouseLeave={() => handleMouseLeave("removeinfo")}
@@ -101,7 +101,7 @@ const Navbar = () => {
             </li>
           )}
           {state.showBulbImg ? (
-            <li className="iconsimage bulbimg">
+            <li className="iconsimage bulbimg hoverimages">
               <img
                 src={Bulbhover}
                 alt="bulb"
@@ -119,7 +119,7 @@ const Navbar = () => {
             </li>
           )}
           {state.showEducationImg ? (
-            <li className="iconsimage educationimg">
+            <li className="iconsimage educationimg hoverimages">
               <img
                 src={Journolhover}
                 alt="education"
@@ -137,7 +137,7 @@ const Navbar = () => {
             </li>
           )}
           {state.showTrophyImg ? (
-            <li className="iconsimage Trophyimg">
+            <li className="iconsimage Trophyimg hoverimages">
               <img
                 src={Trophyhover}
                 alt="Trophy"
@@ -155,7 +155,7 @@ const Navbar = () => {
             </li>
           )}
           {state.showPhoneImg ? (
-            <li className="iconsimage phoneimg">
+            <li className="iconsimage phoneimg hoverimages">
               <img
                 src={Phonehover}
                 alt="phone"
