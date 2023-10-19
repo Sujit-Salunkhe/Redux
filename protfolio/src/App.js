@@ -1,5 +1,5 @@
 import './App.css';
-import Heading from './componets/Heading';
+import Firstcomponet from './componets/Firstcomponet';
 import Navbar from './componets/Navbar';
 import About from './componets/About';
 import Skill from './componets/Skill';
@@ -10,7 +10,7 @@ import Contact from './componets/Contact';
 function App() {
   return (
     <div className="App">
-      <Heading/>
+      <Firstcomponet/>
       <Navbar/>
       <About/>
       <Skill/>

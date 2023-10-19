@@ -1,6 +1,6 @@
 import React from "react";
-import "./heading.css";
-const Heading = () => {
+import "./firstcomponet.css";
+const firstcomponet = () => {
   return (
     <div className="headingdiv">
     <div className="firstheading">
@@ -35,4 +35,4 @@ const Heading = () => {
   );
 };
 
-export default Heading;
+export default firstcomponet;
