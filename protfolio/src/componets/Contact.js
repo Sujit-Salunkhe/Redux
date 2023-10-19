@@ -26,9 +26,9 @@ const Contact = () => {
                 <p> Let’s contact</p> 
                 <p>DIGITALLY</p>
             </div>
-            <div>
-                <ul>
-                    <li><button onClick= {gotogmil}><img src={Gamil} alt='gmail'></img>Gamil</button></li>
+            <div className='contactdetails'>
+                <ul >
+                    <li><button onClick= {gotogmil}><img src={Gamil} alt='gmail'></img>Gmail</button></li>
                     <li><button onClick={gotogithub}><img src={Github} alt='github'></img>Linkdin</button></li>
                     <li><button onClick={gotolinkdin}><img src={Linkdin} alt='linkdin'></img>Github</button></li>
                 </ul>
