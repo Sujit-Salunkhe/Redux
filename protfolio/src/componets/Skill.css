@@ -52,6 +52,13 @@
     text-align: center;
     color: rgba(0, 0, 0, 1);
 }
+.skillsmainwithhead{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
 .techTitle{
     /* display: flex; */
     text-align: center;
@@ -59,4 +66,44 @@
     font-size: 25px;
     font-weight: bold;
     color: rgba(100, 100, 100, 1);
+}
+.skillsmain{
+    width: 603px;
+    height: 246px;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.firstskillbox{
+    width: 137px;
+    height: 172px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.secondskillbox{
+    width: 132px;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.thirdkillbox{
+    /* display: inline-block; */
+    width: 94px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.techbox{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }

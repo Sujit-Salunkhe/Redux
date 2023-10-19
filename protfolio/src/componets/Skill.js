@@ -71,12 +71,27 @@ const Skill = () => {
           <p>Problem Solving</p>
         </div>
       </div>
-      <section>
+      <section className="skillsmainwithhead">
         <div className="techTitle">
             TECH I'M FAMILIAR WITH
         </div>
-        <main>
-            
+        <main className="skillsmain">
+        <ul className="firstskillbox techbox">
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+        <ul className="secondskillbox techbox">
+            <li>REACT</li>
+            <li>MONGO DB</li>
+            <li>EXPRESS JS</li>
+            <li>TAILWIND</li>
+        </ul>
+        <ul className="thirdkillbox techbox">
+            <li>NODE JS</li>
+            <li>PYTHON</li>
+            <li>REDUX</li>
+        </ul>
         </main>
       </section>
     </div>
