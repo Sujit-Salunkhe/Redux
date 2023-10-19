@@ -68,14 +68,14 @@
     /* overflow: hidden; */
 }
 .salunkhename{
-    width: 333px;
+    width: 300px;
     height: 110px;
     display: flex;
     overflow: hidden;
     /* border: 2px solid red; */
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 0px 0px;
     color: rgba(0, 0, 0, 1);
     font-size: 80px;
     font-weight: bold;
@@ -85,22 +85,24 @@
 .linewithssalunkhe{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    /* align-items: flex-start; */
+    /* border: 2px solid red; */
 }
 .linealignment{
-    margin-left: 40px;
+    margin-left: 10px;
 
 }
 .firstLine{
-    width: 200px;
-    border: 8px solid red;
+    width: 280px;
+    border: 2px solid red;
     border-radius: 30px;
     margin-bottom: 5px;
 
 }
 .secondLine{
-    width: 200px;
-    border: 8px solid red;
+    width: 280px;
+    border: 2px solid red;
     border-radius: 30px;
     margin-left: 20px;
 }
@@ -113,6 +115,8 @@
     justify-content: center;
     align-items: center;
     row-gap: 20px;
+    /* border: 2px solid red; */
+    margin-bottom: 50px;
     /* align-self: flex-end; */
 }
 .mernname{

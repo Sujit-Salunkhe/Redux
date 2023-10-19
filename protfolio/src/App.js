@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import Heading from './componets/Heading';
 import Navbar from './componets/Navbar';
 import About from './componets/About';
+import Skill from './componets/Skill';
 
 function App() {
   return (
     <div className="App">
       <Heading/>
-      <Navbar className='navbar'/>
+      <Navbar/>
       <About/>
+      <Skill/>
     </div>
   );
 }

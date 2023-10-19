@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.skillhead {
+  margin-top: 150px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 64px;
+}
+.skillbodybox {
+  /* width: 90vw; */
+  height: 115px;
+  /* border: 2px solid red; */
+  margin: 0px 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 100px;
+  margin-top: 48px;
+}
+.skillbox {
+  width: 242px;
+  height: inherit;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: rgba(26, 42, 108, 0.9);
+  font-weight: bold;
+}
+
+.skillbox:hover{
+    /* background-color: rgba(255, 133, 133, 1); */
+    background: rgb(255,133,133);
+    background: linear-gradient(179deg, rgba(255,133,133,1) 63%, rgba(93,25,25,0) 100%);
+    
+}
+#webdevlopmentText{
+    font-size: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+.techTitle{
+    /* display: flex; */
+    text-align: center;
+    margin-top: 72px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(100, 100, 100, 1);
+}
