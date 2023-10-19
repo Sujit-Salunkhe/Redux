@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.achievementtitle{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 64px;
+    margin-top: 120px;
+}
+.achievementbody{
+    height: 375px;
+    margin-left: 64px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hackerrankBadges{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 10px;
+}
+.complitinglinkdin{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+}

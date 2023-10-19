@@ -84,6 +84,15 @@
     flex-direction: column;
     /* border: 2px solid red; */
 }
+.firstskillbox li:nth-child(1):hover{
+    font-weight: bolder;
+}
+.firstskillbox li:nth-child(2):hover{
+    font-weight: bolder;
+}
+.firstskillbox li:nth-child(3):hover{
+    font-weight: bolder;
+}
 .secondskillbox{
     width: 132px;
     height: 246px;
@@ -91,6 +100,18 @@
     flex-direction: column;
     justify-content: space-between;
     /* border: 2px solid red; */
+}
+.secondskillbox li:nth-child(1):hover{
+    font-weight: bolder;
+}
+.secondskillbox li:nth-child(2):hover{
+    font-weight: bolder;
+}
+.secondskillbox li:nth-child(3):hover{
+    font-weight: bolder;
+}
+.secondskillbox li:nth-child(4):hover{
+    font-weight: bolder;
 }
 .thirdkillbox{
     /* display: inline-block; */
@@ -101,9 +122,20 @@
     justify-content: space-between;
     /* border: 2px solid red; */
 }
+.thirdkillbox li:nth-child(1):hover{
+    font-weight: bolder;
+}
+.thirdkillbox li:nth-child(2):hover{
+    font-weight: bolder;
+}
+.thirdkillbox li:nth-child(3):hover{
+    font-weight: bolder;
+}
 .techbox{
+    color: rgba(149, 149, 149, 1);
     list-style: none;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    color: black;
 }
