@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kameron&display=swap');
 .Contacttitle{
     font-size: 50px;
     font-weight: bold;
@@ -7,4 +8,23 @@
 .Contactbody{
     background-color: black;
     height: 626px;
+}
+.contactdigitally{
+    color: white;
+    width: 303px;
+    height: 104px;
+    text-wrap: wrap;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+}
+.contactdigitally p:nth-child(1){
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contactdigitally p:nth-child(2){
+font-family: 'Kameron', serif;
 }

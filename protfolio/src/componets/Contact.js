@@ -7,12 +7,15 @@ const Contact = () => {
         <p className='Contacttitle'>Contact</p>
       </section>
       <section className='Contactbody'>
-            <div>
-                <p>Let’s contact DIGITALLY</p>
+            <div className='contactdigitally'>
+                <p> Let’s contact</p> 
+                <p>DIGITALLY</p>
             </div>
             <div>
                 <ul>
-                    <li><button></button></li>
+                    <li><button><img src='' alt=''></img>Gamil</button></li>
+                    <li><button><img src='' alt=''></img>Linkdin</button></li>
+                    <li><button><img src='' alt=''></img>Github</button></li>
                 </ul>
             </div>
       </section>
