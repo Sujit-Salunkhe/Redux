@@ -4,7 +4,7 @@
   padding: 0;
 }
 .skillhead {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   font-weight: bold;
   font-size: 50px;
   margin-left: 64px;
@@ -138,4 +138,10 @@
     font-weight: bold;
     cursor: pointer;
     color: black;
+}
+#thirdcomponent{
+    /* padding-top: 30px; */
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    padding-top: 50px;
 }

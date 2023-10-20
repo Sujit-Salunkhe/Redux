@@ -17,7 +17,7 @@ const Contact = () => {
         window.open(Linkdin,'_blank')
     }
   return (
-    <div>
+    <div id='sixthcomponent'>
       <section>
         <p className='Contacttitle'>Contact</p>
       </section>

@@ -44,7 +44,7 @@ const Skill = () => {
   };
 
   return (
-    <div>
+    <div id="thirdcomponent">
       <div className="skillhead">
         <h3>Skills</h3>
       </div>

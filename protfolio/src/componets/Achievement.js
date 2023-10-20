@@ -3,7 +3,7 @@ import './achievement.css'
 import hackerankmedles from './icons/hackerankbade.png'
 const Achievement = () => {
   return (
-    <div>
+    <div id='fourthcomponent'>
       <section className='achievementtitle'>
         <p>ACHIEVEMENT</p>
       </section>

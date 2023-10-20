@@ -2,7 +2,7 @@ import React from 'react'
 import './education.css'
 const Education = () => {
   return (
-    <div>
+    <div id='fifthcomponent'>
       <section className='EducationTitle'>
         <p>EDUCATION</p>
       </section>

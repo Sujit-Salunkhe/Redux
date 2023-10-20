@@ -50,7 +50,7 @@ const reducer = (state, action) => {
       return state;
   }
 };
-const Navbar = () => {
+const Navbar = ({sethome ,setinfo, setskill,setschieve , seteducation , setcontact}) => {
   const [state, dispatch] = useReducer(reducer, intialStage);
   const handleMouseEnter = (type) => {
     dispatch({ type });
@@ -58,25 +58,36 @@ const Navbar = () => {
   const handleMouseLeave = (remove) => {
     dispatch({ type: remove });
   };
-  const gotohomesection = () =>{
-    let selection=document.getElementsByClassName('hoverimages')[0]
-    let targetzone=document.getElementsByClassName('headingdiv')[0]
-     selection.addEventListener('click',() => {
-      targetzone.scrollTo({behavior : "smooth"})
-     })
+  const handleclickhome = () => {
+    sethome(true)
   }
-
+  const handleclickinfo = () => {
+    setinfo(true)
+  }
+  const handleclickskill = () => {
+    setskill(true)
+  }
+  const handclickachieve = () => {
+    setschieve(true)
+  }
+  const handclickeducation = () => {
+    seteducation(true)
+  }
+  const handclickcontact = () => {
+    setcontact(true)
+  }
   return (
     <div className="navbar">
       <section className="navbartitle">Sujit</section>
       <section className="navbaricons">
         <ul>
           {state.showHomeImg ? (
-            <li className="iconsimage homeimg hoverimages " onClick={gotohomesection}>
+            <li className="iconsimage homeimg hoverimages " id="scrollhome" onClick={handleclickhome}>
               <img
                 src={Homehover}
                 alt="Home"
                 onMouseLeave={() => handleMouseLeave("removehome")}
+                
               ></img>
               Home
             </li>
@@ -90,7 +101,7 @@ const Navbar = () => {
             </li>
           )}
           {state.showInfoImg ? (
-            <li className="iconsimage infoimg  hoverimages  ">
+            <li className="iconsimage infoimg  hoverimages  " onClick={handleclickinfo}>
             <img
                 src={InfoCirclehover}
                 alt="info"
@@ -108,7 +119,7 @@ const Navbar = () => {
             </li>
           )}
           {state.showBulbImg ? (
-            <li className="iconsimage bulbimg hoverimages">
+            <li className="iconsimage bulbimg hoverimages" onClick={handleclickskill}>
               <img
                 src={Bulbhover}
                 alt="bulb"
@@ -127,7 +138,7 @@ const Navbar = () => {
           )}
         
           {state.showTrophyImg ? (
-            <li className="iconsimage Trophyimg hoverimages">
+            <li className="iconsimage Trophyimg hoverimages" onClick={handclickachieve}>
               <img
                 src={Trophyhover}
                 alt="Trophy"
@@ -145,7 +156,7 @@ const Navbar = () => {
             </li>
           )}
             {state.showEducationImg ? (
-            <li className="iconsimage educationimg hoverimages">
+            <li className="iconsimage educationimg hoverimages" onClick={handclickeducation}>
               <img
                 src={Journolhover}
                 alt="education"
@@ -163,7 +174,7 @@ const Navbar = () => {
             </li>
           )}
           {state.showPhoneImg ? (
-            <li className="iconsimage phoneimg hoverimages">
+            <li className="iconsimage phoneimg hoverimages" onClick={handclickcontact}>
               <img
                 src={Phonehover}
                 alt="phone"

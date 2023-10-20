@@ -2,7 +2,7 @@ import React from "react";
 import "./firstcomponet.css";
 const firstcomponet = () => {
   return (
-    <div className="headingdiv">
+    <div className="headingdiv " id="firstcomponet">
     <div className="firstheading">
       <p className="welcomeheading">Welcome</p>
       <section className="startingheadingname">
