@@ -58,6 +58,13 @@ const Navbar = () => {
   const handleMouseLeave = (remove) => {
     dispatch({ type: remove });
   };
+  const gotohomesection = () =>{
+    let selection=document.getElementsByClassName('hoverimages')[0]
+    let targetzone=document.getElementsByClassName('headingdiv')[0]
+     selection.addEventListener('click',() => {
+      targetzone.scrollTo({behavior : "smooth"})
+     })
+  }
 
   return (
     <div className="navbar">
@@ -65,7 +72,7 @@ const Navbar = () => {
       <section className="navbaricons">
         <ul>
           {state.showHomeImg ? (
-            <li className="iconsimage homeimg hoverimages ">
+            <li className="iconsimage homeimg hoverimages " onClick={gotohomesection}>
               <img
                 src={Homehover}
                 alt="Home"

@@ -5,7 +5,7 @@ import Github from './icons/Github svg.png'
 import Linkdin from './icons/LinkedIn svg.png'
 const Contact = () => {
     const gotogmil = () => {
-        let email='https://www.youtube.com/watch?v=OpaT8jLB-hc&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&index=44'
+        let email='sujitsalunkhe3738@gmail.com'
         window.open(email,'_blank');
     }
     const gotogithub = () => {
@@ -29,8 +29,8 @@ const Contact = () => {
             <div className='contactdetails'>
                 <ul >
                     <li><button onClick= {gotogmil}><img src={Gamil} alt='gmail'></img>Gmail</button></li>
-                    <li><button onClick={gotogithub}><img src={Github} alt='github'></img>Linkdin</button></li>
-                    <li><button onClick={gotolinkdin}><img src={Linkdin} alt='linkdin'></img>Github</button></li>
+                    <li><button onClick={gotogithub}><img src={Github} alt='github'></img>Github</button></li>
+                    <li><button onClick={gotolinkdin}><img src={Linkdin} alt='linkdin'></img>Linkdin</button></li>
                 </ul>
             </div>
       </section>

@@ -50,12 +50,14 @@ font-family: 'Kameron', serif;
 }
 .contactdetails ul li button {
     display: flex;
+    height: 40px;
     width: inherit;
     justify-content: space-evenly;
     align-items: center;
     background-color: transparent;
     color: white;
     font-size: 20px;
+    cursor: pointer;
     font-family: 'Inter', sans-serif;
     /* padding: 0px 10px;  */
 }
