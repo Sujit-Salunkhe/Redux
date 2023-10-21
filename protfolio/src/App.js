@@ -71,7 +71,6 @@ function App() {
   }, [contact]);
   return (
     <div className="App">
-      <Firstcomponet />
       <Navbar
         sethome={sethome}
         setinfo={setinfo}
@@ -80,6 +79,7 @@ function App() {
         seteducation={seteducation}
         setcontact={setcontact}
       />
+      <Firstcomponet />
       <About />
       <Skill />
       <Achievement />
