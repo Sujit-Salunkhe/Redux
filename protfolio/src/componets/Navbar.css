@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inter&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 1515px;
+  /* background-color: black; */
+}
+.navbar {
+  width: inherit;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 192px; */
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  /* border-radius: 10px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.navbartitle {
+  width: 30%;
+  height: 56px;
+  font-family: "EB Garamond", serif;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 64px;
+}
+.navbaricons {
+  width: 70%;
+  height: inherit;
+  border: 2px solid gray;
+  background-color: aqua;
+  /* border-radius: 10px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 64px;
+}
+.navbaricons ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.iconsimage {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 120px;
+  margin-right: 10px;
+}
+.hoverimages {
+  color: black;
+  height: 30px;
+  border-radius: 30px;
+  border: 6px solid white;
+  background-color: white;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-left: 5px;
+  /* font-family: "EB Garamond", serif; */
+  /* font-size: 10px; */
+}
+.phoneimg {
+  margin: 0;
+}

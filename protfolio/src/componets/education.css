@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.EducationTitle{
+    width: 297;
+    height: 71;
+    margin-top: 48px;
+    margin-left: 64px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.educationbody{
+    margin-left: 114px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Judson', serif;
+}
+.body{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(100, 100, 100, 1);
+}
+.year{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+#fifthcomponent{
+    padding-top: 50px;
+}
